@@ -1,0 +1,271 @@
+*{
+	margin:0;
+	padding:0;
+}
+#maskk{
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:2200px; 
+	background:#616161;
+	opacity:0.8;
+}
+/*整个div*/
+#all{
+	width:1200px;
+	margin:auto;
+	margin-top:20px;
+}
+#all>div{
+	float:left;
+}
+#all:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/*左部分*/
+#all-left{
+	width:208px;
+	border:1px solid #ddd;
+}
+.all-left-gods{
+	padding-top:14px;
+	padding-bottom:6px;
+}
+#all-left-tit{
+	height:34px;
+	background:#e51e13;
+	text-align:center;
+	color:#fff;
+	line-height:34px;
+	font-size:14px;
+}
+.all-left-gods-pic{
+	text-align:center;
+}
+a{ 
+	color:#666;
+	text-decoration:none;
+}
+.all-left-gods-pic img{
+	width:150px;
+	height:150px;
+	border:1px solid #ccc;
+}
+.all-left-gods-tit{
+	width:150px;
+	margin:auto;
+	font-size:12px;
+	overflow:hidden;
+	margin-top:5px;
+}
+.all-left-gods-pric{
+	width:150px;
+	margin:auto;
+	margin-top:1px;
+	color:#b9281e
+}
+/*右部分*/
+#all-right{
+	width:979px;
+	margin-left:8px;
+	}
+/*右上部分*/	
+#all-right-top{
+	width:978px;
+	height:34px;
+	border:1px solid #ddd;
+	background:#f5f5f5;
+}
+#all-right-top-ul{
+	float:left;
+	list-style:none;
+	margin-top:3px;
+	margin-left:14px;
+}
+#all-right-top-ul li{
+	float:left;
+	width:64px;
+	height:22px;
+	border:1px solid #d9d9d9;
+	font-size:12px;
+	line-height:22px;
+	text-indent:15px;
+	cursor:pointer;
+	margin-left:0px;
+}
+#all-right-top-l1{
+	background:#e51e13 url(../img/inner.png) no-repeat 46px -98px;
+	color:#fff;
+}
+#all-right-top-l2{
+	background:url(../img/inner.png) no-repeat 46px -81px;
+}
+#all-right-top-l3{
+	background:url(../img/inner.png) no-repeat 46px -81px;
+}
+#all-right-top-l4{
+	background:url(../img/inner.png) no-repeat 46px -117px;
+}
+#all-right-bottom{
+	width:980px;
+	margin-top:20px;
+}
+/*右下部分*/
+#all-right-bottom:after{
+	content:"";
+	display:block;
+	clear:both;
+	}
+#all-right-bottom2{
+	width:1000px;
+	margin-left:-10px;
+}
+.artb-al{
+	width:208px;
+	height:345px;
+	background:#fff;
+	float:left;
+	position:relative;
+	margin:21px 21px;
+}
+.artb-al-img{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	margin:auto;
+	margin-top:5px;
+}
+.artb-al-img img{
+	width:200px;
+	height:200px;
+	border:0;
+}
+.artb-al-pric{
+	width:190px;
+	margin:auto;
+	padding:0px 0px;
+	font-size:20px;
+	color:#bb3221;
+}
+.artb-al-pric:after{
+	content:"";
+	display:block;
+	clear:both;
+	}
+.artb-al-pric a{
+	width:18px;height:18px;
+	float:right;
+	background:url(../img/inner.png) no-repeat 1px -15px;
+}
+.artb-al-text{
+	width:190px;
+	height:52px;
+	margin:auto;
+	color:#666;
+	font-size:12px;
+	overflow:hidden;
+	margin-top:1px;
+}
+.artb-al-count{
+	width:190px;
+	margin:auto;
+	margin-top:0px;
+}
+.clear{
+	list-style:none;
+}
+.clear li{
+	float:left;
+}
+.artb-al-count-a{
+	width:18px;
+	display:block;
+	float:left;
+	text-align:center;
+	background:#ddd;
+}
+.clear li input{
+	width:38px;
+	height:19px;
+	float:left;
+	text-align:center;
+	padding:0px 0px;
+	border:1px solid #bebebf;
+}
+.count-li{
+	margin-left:10px;
+	width:100px;
+	height:21px;
+	border:1px solid #e51e13;
+}
+.count-li-a1{
+	width:30px;
+	height:23px;
+	display:inline-block;
+	background:url(../img/inner.png) no-repeat 3px -34px;
+}
+.count-li-a2{
+	margin-top:-25px;
+	margin-left:32px;
+	display:block;
+	color:#e51e13;
+	font-size:12px;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.artb-al-no{
+	position:absolute;
+	top:-11px;
+	left:-12px;
+	background:#f5f5f5;
+	width:230px;
+	height:368px;
+	z-index:-1;
+	border-radius:5px;
+	display:none;
+}
+/*页部*/
+#pn-div{
+	width:980px;
+	height:50px;
+	margin-top:10px;
+}
+#pn-div ul{
+	list-style:none;
+	float:right;
+	font-size:12px;
+	margin-left:10px;
+}
+#pn-div ul li{
+	float:left;
+	padding:19px 3px;
+}
+#pn-div ul li input{
+	width:24px;
+	border:1px solid #ddd;
+	text-align:center;
+	padding:0px 11px;
+}
+#pn-div ul li a{
+	display:block;
+	border:1px solid #ddd;
+	color:#666;
+	width:38px;
+	text-align:center;
+}
+/*.artb-al:hover{
+	border:1px solid #000;}*/
+.artb-al:hover .artb-al-no{
+	display:block;
+	border:1px solid #000;
+}
+.clicka:hover{
+	text-decoration:underline;
+}

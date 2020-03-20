@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*第一部分header-one的注释 */
+#header{
+    width:100%;
+}
+#header-one {
+    width: 100%px;
+    height: 28px;
+    border-bottom: 1px solid #666666;
+}
+#header-one1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+#ul11 {
+    list-style: none;
+    float: left;
+}
+#ul11 li a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+}
+#ul11 li {
+    float: left;
+}
+#ul22 {
+    list-style: none;
+    float: right;
+}
+#ul22 li {
+    float: left;
+    margin-left: 30px;
+}
+#ul22 li a {
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+}
+#ul22 li a:hover {
+    color: #ff7f00;
+    text-decoration: underline;
+}
+#ul22 li img {
+    vertical-align: bottom;
+}
+#xingxing {
+    width: 25px;
+    height: 25px;
+    background: url(../img/index.png) no-repeat 0px 4px;
+}
+/*第一部分header-two的注释 */
+#header-two {
+    width: 100%;
+    height: 81px;
+    border-bottom: 1px solid #eaeaea;
+    box-shadow: 3px 3px 3px #e1e1e1;
+}
+#header-two ul {
+    width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+#header-two ul li {
+    float: left;
+}
+#get-gkpic {
+    width: 145px;
+    height: 76px;
+    background: url(../img/s_03.png) no-repeat 1px 16px;
+}
+#get-blank {
+    width: 65px;
+    height: 75px;
+}
+#get-blank ul {
+    margin-top: 15px;
+    position: relative;
+}
+#get-input {
+    width: 455px;
+    height: 80px;
+    margin-left: 185px;
+    background: url(../img/input.png) no-repeat -503px -1px;
+}
+#get-input input {
+    float: left;
+    width: 310px;
+    height: 15px;
+    margin-top: 11px;
+    margin-left: 15px;
+    outline: 0;
+    border: 0;
+    padding: 3px 0px;
+}
+#get-input a {
+    display: inline-block;
+    width:28px;
+    height:27px;
+    margin-top:4px;
+}
+#get-gwc {
+    margin-left: 195px;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 15px;
+}
+#get-gwcpic {
+    vertical-align: bottom;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 6px 11px;
+    background: url(../img/index.png) no-repeat 0px -42px;
+    cursor: pointer;
+}
+#dspan span{
+    display: inline-block;
+}
+#get-text a {
+    text-decoration: none;
+    line-height: 23px;
+    color: #666666;
+    font-size: 14px;
+}
+#get-text a:hover {
+    color: #ff7f00;
+    text-decoration: underline;
+}
+#get-home {
+    width: 53px;
+    font-size: 16px;
+    margin-left: -379px;
+    color: #000;
+}
+#get-sale {
+    width: 95px;
+    font-size: 16px;
+    margin: 0px 67px;
+    color: #000;
+}
+#get-active {
+    width: 95px;
+    font-size: 16px;
+    color: #000;
+}
+#get-taste {
+    width: 95px;
+    font-size: 16px;
+    margin: 1px 66px;
+    color: #000;
+}
+#get-phone {
+    width: 185px;
+    color: #666;
+    font-size: 16px;
+}
+/*	nav3注释*/
+.nav3 ul {
+    list-style: none;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.nav3 ul li {
+    float: left;
+    padding-right:41px;
+    padding-left:42px;
+    line-height:33px;
+}
+.nav3 ul .li_hove:hover{
+    background:#ff7f00;
+}
+.nav3 ul li a {
+    display:inline-block;
+    text-decoration: none;
+    height:34px;
+    color: #ffffff;
+    font-size: 17px;
+}

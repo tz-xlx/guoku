@@ -1,0 +1,2343 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/gk.login.css">
+</head>
+<body>	
+  <header id="header"></header>
+ <!--轮播 -->
+	<main id="main">
+		<div id="banner">
+			<ul id="ul-img" style="width:6000px;margin-left:0;">
+				<li>
+					<a href="javascript:;"><img  src="img/1.banner.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="javascript:;"><img  src="img/2.banner.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="javascript:;"><img  src="img/3.banner.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="javascript:;"><img  src="img/4.banner.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="javascript:;"><img  src="img/1.banner.jpg" alt=""></a>
+				</li>
+			</ul>
+			<ul id="ul-index">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</main>
+<!-- 登录 -->
+	<div id="login">
+			<div id="login-tit">
+				<a href="javascript:;">账号密码登录</a>
+				<span>|</span>
+				<a id="login-tit-a" href="javascript:;"></a>
+				<a href="javascript:;">手机验证码登录</a>
+			</div>
+			<ul>
+				<li id="login-tit-li">用户名</li>
+				<li>
+					<input class="input1" id="uname" type="text">
+					<div class="vali_info">用户名不正确</div>
+				</li>
+				<li id="login-tit-li">密码</li>
+		    <li>
+					<input class="input2" id="upwd" type="passwords">
+					<div class="vali_info">密码不正确</div>
+				</li>
+				<li>
+					<a id="a1" href="javascript:;">忘记密码?</a>
+					<a id="a2" href="reg.html">点击注册</a>
+				</li>
+				<li>
+					<input id="login-input" type="button" value="登&nbsp;&nbsp;陆" onclick="login()">
+				</li>
+			</ul>
+	</div>
+    <!-- 		图片 -->
+	<div style="text-align:center;">
+			<img src="img/index_ad.jpg" alt="">
+	</div>
+    <!-- 		广告 -->
+	<div style="width:100%;height:400px;">
+		<ul id="guang">
+			<li>
+				<a href="">
+						<img id="guang1-in1"  src="img/index_ad1.jpg" alt="">
+						<p>
+							<b>企业日配福利</b><br>
+							提供高性价比水果及下午茶配送服务<br>
+							<span style="color:#666;">
+									Provide cost-effective fruit and afternoon tea delivery service
+							</span>
+						</p>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img id="guang1-in2"  src="img/index_ad2.jpg" alt="">
+					<p>
+						<b>茶歇活动礼品</b><br>
+						活动摆台，会议茶歇，节日礼品一站式服务<br>
+						<span style="color:#666;">
+										Activity setting, conference tea break, holiday gift one-stop service
+						</span>
+					</p>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img id="guang1-in3"  src="img/index_ad3.jpg" alt="">
+					<p>
+						<b>新零售合作</b><br>
+						提供即食鲜果类完整产品解决方案<br>
+						<span style="color:#666;">
+										Provide complete product solutions for the most professional and available fresh fruits
+						</span>
+					</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+    <!--主内容部分content1 -->
+  <div id="all">
+		<div id="all-lis1" class="tabs">
+			<div class="top clear">
+				<span class="s-pic">
+					<img src="img/icon_goods_1.png" alt="">
+				</span>
+				<span class="s-txt">》专利分格</span>
+				<ul class="t-ul clear" id="tab">
+					<li id="zlfg"><a class="get-ul-a" href="javascript:;" data-toggle="tab" data-target="content1">专利分格</a></li>
+					<li>|</li>
+					<li id="sper"><a class="get-ul-a" href="javascript:;" data-toggle="tab" data-target="content2">超级果盒</a></li>
+					<li>|</li>
+					<li id="three"><a class="get-ul-a" href="javascript:;" data-toggle="tab" data-target="content3">三分果盒</a></li>
+					<li>|</li>
+					<li id="two"><a class="get-ul-a" href="javascript:;" data-toggle="tab" data-target="content4">二分果盒</a></li>
+					<li>|</li>
+					<li id="mini"><a class="get-ul-a" href="javascript:;" data-toggle="tab" data-target="content5">迷你果盒</a></li>
+					<li>|</li>
+					<li class="li-more"><a href="">更多>></a></li>
+				</ul>
+			</div>
+			<div class="bottom clear" id="container">
+				<div class="b-left">
+					<img src="img/recommend_img1.jpg" alt="">
+					<div class="hid">
+						<div class="hid-top">
+						</div>
+						<a href="gk.products.html">查看详情</a> 
+					</div>
+				</div>
+				<div class="b-right" id="content1">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul1">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+												<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+										        <p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right" id="content2">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id=ul2>
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+									    <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+							    <div class="produ-box">
+									<div class="produ-box-content">
+                                        <a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+											    <p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right" id="content3">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul3">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+											    <p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+									    <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+									        <div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+                                        <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right" id="content4">
+				  <div>
+						<div>
+							<ul class="gt-ul clear" id="ul4">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+                                <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+									    </a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right" id="content5">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul5">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+										        <p>
+											        <a class="buy-now-button" href="#">立即查询</a>
+										        </p>
+									        </div>
+								    </div>
+						        </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+									    <a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+											    <p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- 主内容部分content2 -->
+  <div id="all">
+		<div id="all-lis1" class="tabs">
+			<div class="top clear">
+				<span class="s-pic">
+					<img src="img/icon_goods_2.png" alt="">
+				</span>
+				<span class="s-txt">》彩虹果杯</span>
+				<ul class="t-ul clear" id="tab1">
+					<li id="zlfg"><a class="get-ul-a" href="javascript:;" data-toggle="tab1" data-target="content6">彩虹果杯</a></li>
+					<li>|</li>
+					<li id="sper"><a class="get-ul-a" href="javascript:;" data-toggle="tab1" data-target="content7">大型果杯</a></li>
+					<li>|</li>
+					<li id="three"><a class="get-ul-a" href="javascript:;" data-toggle="tab1" data-target="content8">中型果杯</a></li>
+					<li>|</li>
+					<li id="two"><a class="get-ul-a" href="javascript:;" data-toggle="tab1" data-target="content9">标准果杯</a></li>
+					<li>|</li>
+					<li id="mini"><a class="get-ul-a" href="javascript:;" data-toggle="tab1" data-target="content10">迷你果杯</a></li>
+					<li>|</li>
+					<li class="li-more"><a href="">更多>></a></li>
+				</ul>
+			</div>
+			<div class="bottom clear" id="container">
+				<div class="b-left">
+					<img src="img/recommend_img2.jpg" alt="">
+					<div class="hid">
+						<div class="hid-top">
+						</div>
+						<a href="gk.products.html">查看详情</a> 
+					</div>
+				</div>
+				<div class="b-right" id="content6">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul6">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+												<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+										        <p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content7">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul7">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+									    <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+							    <div class="produ-box">
+									<div class="produ-box-content">
+                                        <a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+											    <p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content8">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul8">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+											    <p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+									    <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+									        <div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+                                        <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content9">
+				    <div>
+						<div>
+							<ul class="gt-ul clear" id="ul9">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+                                <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+									    </a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content10">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul10">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+										        <p>
+											        <a class="buy-now-button" href="#">立即查询</a>
+										        </p>
+									        </div>
+								    </div>
+						        </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+									    <a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+											    <p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- 主内容部分content3 -->
+  <div id="all">
+		<div id="all-lis1" class="tabs">
+			<div class="top clear">
+				<span class="s-pic">
+					<img src="img/icon_goods_6.png" alt="">
+				</span>
+				<span class="s-txt">》进口水果</span>
+				<ul class="t-ul clear" id="tab2">
+					<li id="zlfg"><a class="get-ul-a" href="javascript:;" data-toggle="tab2" data-target="content11">进口水果</a></li>
+					<li>|</li>
+					<li id="sper"><a class="get-ul-a" href="javascript:;" data-toggle="tab2" data-target="content12">热带水果</a></li>
+					<li>|</li>
+					<li id="three"><a class="get-ul-a" href="javascript:;" data-toggle="tab2" data-target="content13">冷冻榴莲</a></li>
+					<li>|</li>
+					<li id="two"><a class="get-ul-a" href="javascript:;" data-toggle="tab2" data-target="content14">车厘子</a></li>
+					<li>|</li>
+					<li id="mini"><a class="get-ul-a" href="javascript:;" data-toggle="tab2" data-target="content15">奇异果</a></li>
+					<li>|</li>
+					<li class="li-more"><a href="">更多>></a></li>
+				</ul>
+			</div>
+			<div class="bottom clear" id="container">
+				<div class="b-left">
+					<img src="img/recommend_img6.jpg" alt="">
+					<div class="hid">
+						<div class="hid-top">
+						</div>
+						<a href="gk.products.html">查看详情</a> 
+					</div>
+				</div>
+				<div class="b-right" id="content11">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul11">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+												<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+										        <p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content12">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul12">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+									    <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+							    <div class="produ-box">
+									<div class="produ-box-content">
+                                        <a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+											    <p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content13">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul13">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+											    <p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+									    <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+									        <div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+                                        <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content14">
+				    <div>
+						<div>
+							<ul class="gt-ul clear" id="ul14">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+                                <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+									    </a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content15">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul15">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+										        <p>
+											        <a class="buy-now-button" href="#">立即查询</a>
+										        </p>
+									        </div>
+								    </div>
+						        </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+									    <a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+											    <p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- 主内容部分content4 -->
+  <div id="all">
+		<div id="all-lis1" class="tabs">
+			<div class="top clear">
+				<span class="s-pic">
+					<img src="img/icon_goods_7.png" alt="">
+				</span>
+				<span class="s-txt">》国产水果</span>
+				<ul class="t-ul clear" id="tab3">
+					<li id="zlfg"><a class="get-ul-a" href="javascript:;" data-toggle="tab3" data-target="content16">国产水果</a></li>
+					<li>|</li>
+					<li id="sper"><a class="get-ul-a" href="javascript:;" data-toggle="tab3" data-target="content17">时令水果</a></li>
+					<li>|</li>
+					<li id="three"><a class="get-ul-a" href="javascript:;" data-toggle="tab3" data-target="content18">瓜/甜瓜</a></li>
+					<li>|</li>
+					<li id="two"><a class="get-ul-a" href="javascript:;"data-toggle="tab3" data-target="content19">柑橘/橙柚</a></li>
+					<li>|</li>
+					<li id="mini"><a class="get-ul-a" href="javascript:;" data-toggle="tab3" data-target="content20">苹果</a></li>
+					<li>|</li>
+					<li class="li-more"><a href="">更多>></a></li>
+				</ul>
+			</div>
+			<div class="bottom clear" id="container">
+				<div class="b-left">
+					<img src="img/recommend_img7.jpg" alt="">
+					<div class="hid">
+						<div class="hid-top">
+						</div>
+						<a href="gk.products.html">查看详情</a> 
+					</div>
+				</div>
+				<div class="b-right" id="content16">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul16">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+												<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+										        <p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content17">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul17">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+									    <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+							    <div class="produ-box">
+									<div class="produ-box-content">
+                                        <a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥29.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+											    <p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content18">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul18">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+											    <p>
+												    <a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+									    <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+									        <div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+                                        <span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content19">
+				    <div>
+						<div>
+							<ul class="gt-ul clear" id="ul19">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+								            <div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+                                <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+									    </a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="b-right"  id="content20">
+					<div>
+						<div>
+							<ul class="gt-ul clear" id="ul20">
+								<!-- <div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+										        <p>
+											        <a class="buy-now-button" href="#">立即查询</a>
+										        </p>
+									        </div>
+								    </div>
+						        </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+									    <a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+									        <div>
+											    <p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+							    </div>
+								<div class="produ-box">
+									<div class="produ-box-content">
+										<a class="produ-img" href="#">
+											<img src="img/sg4.jpg" alt="">
+											<div></div>
+										</a>
+										<span class="produ-info">二分果盒：特级精选</span>
+										<span class="produ-price-info">￥19.00</span>
+										<span class="produ-buy-now"></span>
+											<div>
+												<p>
+													<a class="buy-now-button" href="#">立即查询</a>
+												</p>
+											</div>
+									</div>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer"></footer>
+	<!-- 遮盖层 -->
+	<div id="maskk"></div>
+	<script src="js/ajax.js"></script>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/banner.js"></script>
+	<script src="js/ajaxlogin.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/footer.js"></script>
+</body>
+</html>

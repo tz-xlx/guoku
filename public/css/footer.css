@@ -1,0 +1,71 @@
+/*脚部分注释*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    width: 100%;
+    font-family: "Microsoft Yahei";
+    margin: auto;
+    font-size: 16px;
+}
+#footer-child {
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#footer-left {
+    float: left;
+    width: 300px;
+}
+#footer-left-one,
+#footer-left-two,
+#footer-left-three {
+    position: relative;
+    padding-bottom: 40px;
+    width: 220px;
+}
+#footer-left-one p,
+#footer-left-two p,
+#footer-left-three p {
+    font-size: 16px;
+    line-height: 22px;
+    width: 220px;
+    padding-left: 20px;
+}
+.imgpic {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    vertical-align: bottom;
+}
+#footer-child span {
+    color: #616161;
+}
+#footer-right {
+    float: right;
+    width: 900px;
+}
+#footer-right ul {
+    list-style: none;
+    float: left;
+    width: 266px;
+    position: relative;
+}
+#footer-right li {
+    margin-left: 24px;
+}
+#footer-right h3 {
+    color: #616161;
+}
+#footer-right ul a {
+    text-decoration: none;
+    color: #616161;
+    font-size: 12px;
+}
+#footer-right span {
+    font-size: 14px;
+    color: #616161;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/gk.product.details.css">
+	<link rel="stylesheet" href="css/gk.login.css">
+</head>
+<body>
+	<header id="header"></header>
+	<!-- 登录 -->
+	<div id="login">
+		<div id="login-tit">
+			<a href="javascript:;">账号密码登录</a>
+			<span>|</span>
+			<a id="login-tit-a" href="javascript:;"></a>
+			<a href="javascript:;">手机验证码登录</a>
+		</div>
+		<ul>
+			<li id="login-tit-li">用户名</li>
+			<li>
+				<input class="input1" id="uname" type="text">
+				<div class="vali_info">用户名不正确</div>
+			</li>
+			<li id="login-tit-li">密码</li>
+			<li>
+				<input class="input2" id="upwd" type="passwords">
+				<div class="vali_info">密码不正确</div>
+			</li>
+			<li>
+				<a id="a1" href="javascript:;">忘记密码?</a>
+				<a id="a2" href="reg.html">点击注册</a>
+			</li>
+			<li>
+				<input id="login-input" type="button" value="登&nbsp;&nbsp;陆" onclick="login()">
+			</li>
+		</ul>
+</div>
+	<div id="goods_detail">
+		<div id="url_here">
+			<a href="index.html">首页</a>
+			&nbsp;>&nbsp;
+			<a href="#">专利分格</a>
+			&nbsp;>&nbsp;
+			<a href="#">超级果盒</a>
+			&nbsp;>&nbsp;超级果盒:应季流行
+		</div>
+		<div id="goods" class="clear">
+			<div id="gd_imgs">
+				<div id="preview">
+						<img id="m-img" style="width:430px;height:430px;" src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt="">
+						<div id="mask" class="position-absolute d-none"></div>
+						<div id="super-mask" class="position-absolute"></div>
+						<div id="div-lg" class="position-absolute d-none"></div>
+				</div>
+				<div class="pre_scroll clear">
+					<a class="prev disabled "><</a>
+					<a class="next">></a>
+					<div class="items">
+						<ul id="ulImgs">
+							<!-- <li><img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt=""></li>
+							<li><img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt=""></li>
+							<li><img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt=""></li>
+							<li><img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt=""></li>
+							<li><img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt=""></li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="gd_des">
+				<div id="gd_des_name" class="ptitle">
+					<!-- 超级果盒：应季流行 -->
+				</div>
+				<ul id="gd_des_price">
+					<li>
+						商品价格：
+						<span class="pprice">  
+							<!-- ￥25.00 -->
+						</span>
+					</li>
+				</ul>
+				<p class="goods_product_p">规格：</p>
+				<ul id="gd_des_ser1">
+					<!-- <li class="active1">
+						<img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt="">
+						<a href="#">应季流行</a>
+					</li>
+					<li>
+						<img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt="">
+						<a href="#">应季流行</a>
+					</li>
+					<li>
+						<img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt="">
+						<a href="#">应季流行</a>
+					</li>
+					<li>
+						<img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt="">
+						<a href="#">应季流行</a>
+					</li>
+					<li>
+						<img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt="">
+						<a href="#">应季流行</a>
+					</li>
+					<li>
+						<img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt="">
+						<a href="#">应季流行</a>
+					</li> -->
+				</ul>
+				<p class="goods_product_p">选择品类：</p>
+				<ul id="gd_des_ser_fruit">
+					<!-- <li style="border-color:rgb(204,204,204);">
+						<a>海南玉菇蜜瓜+海南黑美人西瓜+山东丰水梨+海南圣女果</a>
+					</li>
+					<li style="border-color:rgb(204,204,204);">
+						<a>海南玉菇蜜瓜+海南黑美人西瓜+山东丰水梨+海南圣女果</a>
+					</li>
+					<li style="border-color:rgb(204,204,204);">
+						<a>海南玉菇蜜瓜+海南黑美人西瓜+山东丰水梨+海南圣女果</a>
+					</li>
+					<li style="border-color:rgb(204,204,204);">
+						<a>海南玉菇蜜瓜+海南黑美人西瓜+山东丰水梨+海南圣女果</a>
+					</li>
+					<li >
+						<a class="active">海南玉菇蜜瓜+海南黑美人西瓜+山东丰水梨+海南圣女果</a>
+					</li> -->
+				</ul>
+				<ul id="gd_des_ser">
+					<li id="pweight">
+						   <!-- 净重：350g/杯 -->
+					</li>
+					<li>服务：由果酷负责发货，并提供售后服务。</li>
+				</ul>
+				<ul  id="gd_des_num" class="clear" >
+					<li id="gdn_num">数量</li>
+					<li id="gdn_aia">
+						<a class="gdn_a" href="javascript:;">-</a>
+						<input id="gdn_inp"type="text" value="1">
+						<a class="gdn_a" href="javascript:;">+</a>
+					</li>
+				</ul>
+				<ul id="gd_des_opt" class="clear">
+					<li>
+						<a href="javascript:;" id="go_buy">立刻购买</a>
+					</li>
+					<li>
+						<a href="javascript:;" id="go_car">
+							<i></i>
+							<span>加入购物车</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="gods_deta">商品推荐</div>	
+	<div id="gods_products">
+		<div id="gods_productsA" class="clear">
+			<div>
+				<a href="#">
+					<img src="img/fef5f555a314464a8a1da91350b7de15.jpg" alt="">
+				</a>
+				<p class="gp_p1">
+					<a href="#">智力进口车厘子4斤</a>
+				</p>	
+				<p class="gp_p2">￥258.00</p>
+			</div>
+		  <div>
+					<a href="#">
+							<img src="img/fef5f555a314464a8a1da91350b7de15.jpg" alt="">
+						</a>
+						<p class="gp_p1">
+							<a href="#">智力进口车厘子4斤</a>
+						</p>	
+						<p class="gp_p2">￥258.00</p>
+			</div>
+			<div>
+					<a href="#">
+							<img src="img/fef5f555a314464a8a1da91350b7de15.jpg" alt="">
+						</a>
+						<p class="gp_p1">
+							<a href="#">智力进口车厘子4斤</a>
+						</p>	
+						<p class="gp_p2">￥258.00</p>
+			</div>
+			<div>
+					<a href="#">
+							<img src="img/fef5f555a314464a8a1da91350b7de15.jpg" alt="">
+						</a>
+						<p class="gp_p1">
+							<a href="#">智力进口车厘子4斤</a>
+						</p>	
+						<p class="gp_p2">￥258.00</p>
+			</div>
+			<div>
+					<a href="#">
+							<img src="img/fef5f555a314464a8a1da91350b7de15.jpg" alt="">
+						</a>
+						<p class="gp_p1">
+							<a href="#">智力进口车厘子4斤</a>
+						</p>	
+						<p class="gp_p2">￥258.00</p>
+			</div>
+			<div>
+					<a href="#">
+							<img src="img/fef5f555a314464a8a1da91350b7de15.jpg" alt="">
+						</a>
+						<p class="gp_p1">
+							<a href="#">智力进口车厘子4斤</a>
+						</p>	
+						<p class="gp_p2">￥258.00</p>
+			</div>
+		</div>
+	</div>
+	<footer id="footer"></footer>
+	<div id="maskk"></div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/gk.product.details.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/ajaxlogin.js"></script>
+	<script src="js/details.js"></script>
+  <script src="js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<link rel="stylesheet" href="css/shoppingcart.css">
+	<link rel="stylesheet" href="css/gk.login.css">
+ </head>
+ <body>
+		 <header id="header"></header>
+		 <!-- 登录 -->
+	<div id="login">
+		<div id="login-tit">
+			<a href="javascript:;">账号密码登录</a>
+			<span>|</span>
+			<a id="login-tit-a" href="javascript:;"></a>
+			<a href="javascript:;">手机验证码登录</a>
+		</div>
+		<ul>
+			<li id="login-tit-li">用户名</li>
+			<li>
+				<input class="input1" id="uname" type="text">
+				<div class="vali_info">用户名不正确</div>
+			</li>
+			<li id="login-tit-li">密码</li>
+			<li>
+				<input class="input2" id="upwd" type="passwords">
+				<div class="vali_info">密码不正确</div>
+			</li>
+			<li>
+				<a id="a1" href="javascript:;">忘记密码?</a>
+				<a id="a2" href="reg.html">点击注册</a>
+			</li>
+			<li>
+				<input id="login-input" type="button" value="登&nbsp;&nbsp;陆" onclick="login()">
+			</li>
+		</ul>
+</div>
+		<div id="container">
+			<div id="container_tit" class="clear">
+				<span id="container_tit_txt">我的购物车</span>
+				<ul id="container_flow" class="clear">
+					<li id="con_img"></li>
+					<li class="con_li con_li_cur">1.我的购物车</li>
+					<li class="con_li">2.填写核对订单信息</li>
+					<li class="con_li">3.成功提交订单</li>
+				</ul>
+			</div>
+			<ul id="container_th" class="clear">
+				<li id="co_inp">
+					<input type="checkbox">
+				</li>
+				<li id="co_all">全选</li>
+				<li id="co_name">商品信息</li>
+				<li  id="co_sj">市场价(元)</li>
+				<li  id="co_dj">单价(元)</li>
+				<li  id="co_sl">数量</li>
+				<li  id="co_je">金额(元)</li>
+				<li  id="co_op">操作</li>
+			</ul>
+			<ul id="container_all">
+				<!-- <li id="container_all_li">
+					<ul class="container_obj clear" >
+						<li class="ob_inp">
+							<input type="checkbox">
+						</li>
+						<li class="ob_img">
+							<a href="">
+								<img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt="">
+							</a>
+						</li>
+						<li class="ob_name">
+							<a href="">
+								标准果杯：应季流行
+							</a>
+						</li>
+						<li class="ob_dj">12.00</li>	
+						<li class="ob_dj">12.00</li>	
+						<li class="ob_sl">
+							<span class="ob_span">
+								<a href="javascript:;">-</a>
+								<input type="text" value="1">
+								<a href="javascript:;">+</a>
+							</span>
+						</li>
+						<li class="ob_je">
+							12.00
+						</li>
+						<li class="ob_del">
+							<a href="">删除</a>
+						</li>
+					</ul>
+				</li> -->
+			
+			<!-- <ul id="container_all">
+				<li id="container_all_li">
+					<ul class="container_obj clear" >
+						<li class="ob_inp">
+							<input type="checkbox">
+						</li>
+						<li class="ob_img">
+							<a href="">
+									<img src="img/41f9fe2dce5349bcb00ed309cb4a8aa1.jpg" alt="">
+							</a>
+						</li>
+						<li class="ob_name">
+							<a href="">
+								标准果杯：应季流行
+							</a>
+						</li>
+						<li class="ob_dj">12.00</li>	
+						<li class="ob_dj">12.00</li>	
+						<li class="ob_sl">
+							<span class="ob_span">
+								<a href="javascript:;">-</a>
+								<input type="text" value="1">
+								<a href="javascript:;">+</a>
+							</span>
+						</li>
+						<li class="ob_je">
+							12.00
+						</li>
+						<li class="ob_del">
+							<button>删除</button>
+						</li>
+					</ul>
+				</li>-->
+			</ul> 
+			<ul class="container_tf clear">
+				<li id="ctf_inps">
+					<input type="checkbox">
+				</li>
+				<li id="ctf_all">全选</li>
+				<li id="ctf_li">
+					<a id="de_all" href="javascript:;">
+						删除
+					</a>
+				</li>
+				<li class="ctf_r">
+					<a id="ctf_js" href="">
+						结算
+					</a>
+				</li>
+				<li class="ctf_r" id="total">
+					￥0.00
+				</li>
+				<li class="ctf_r" id="subt">总计(不含运费)</li>
+				<li class="ctf_r">
+					已选商品
+					<span id="count">
+						0
+					</span>
+					件
+				</li>
+			</ul>
+		</div>
+		<footer id="footer"></footer>
+		<div id="maskk"></div>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/ajaxlogin.js"></script>
+		<script src="js/shoppingcart2.js"></script>
+		<script src="js/footer.js"></script>
+</body>
+</html>
